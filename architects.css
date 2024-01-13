@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;1,300&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+*{
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Work Sans', sans-serif;
+}
+/* Header Style */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color:  #131313;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav >ul{
+display: flex;
+}
+nav li{
+    list-style: none;
+margin-right: 30px;
+font-weight: 500;
+font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+.banner-container{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn-primary{
+    border-radius: 8px;
+background: #FF900E;
+padding: 20px 25px;
+}
+img{
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+background-color:lightgray;
+background-repeat: no-repeat;
+margin-top: 45px;
+}
